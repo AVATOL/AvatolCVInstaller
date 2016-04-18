@@ -3,6 +3,52 @@ Install script for AvatolCV
 
 updateAvatolCV.py is the script that installs the latest version of each install bundle
 
+###################################
+#   REQUIREMENTS/DEPENDENCIES
+###################################
+64 bit Windows / 64 bit OSX (Mac)
+python 2.7.x
+Java 8 64 bit
+MATLAB R2015b 
+8G RAM
+
+
+###################################
+#   GETTING THE INSTALLER
+###################################
+1. Got to https://github.com/AVATOL/AvatolCVInstaller
+
+2. Click the button that says "Download ZIP"
+
+3. unzip the file and then proceed with the instructions in the next section
+###################################
+#    INSTALLING AVATOLCV
+###################################
+To run it, open up a command shell and type:
+
+%python updateAvatolCV.py <install_root>
+
+...where <install_root> is replaced by your choice of what directory you want to install into.  The installer will create a subdirectory called 'avatol_cv' and place the system under that.  So, for example, you specify
+
+%python updateAvatolCV.py C:\someDir
+
+...then c:\someDir\avatol_cv will contain all the files for AvatolCV.  
+
+
+###################################
+#    RUNNING AVATOLCV
+###################################
+Once the files are in place, you would do:
+
+%cd C:\someDir\avatol_cv\java\lib
+%java -jar avatol_cv.jar
+
+...to start the system
+
+#####################################
+#   WHAT THE INSTALLER DOES IN DETAIL
+#####################################
+
 AvatolCV is broken up into the following bundles:
 
     docs
