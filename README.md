@@ -6,11 +6,11 @@ updateAvatolCV.py is the script that installs the latest version of each install
 ###################################
 #   REQUIREMENTS/DEPENDENCIES
 ###################################
-64 bit Windows / 64 bit OSX (Mac)
-python 2.7.x
-Java 8 64 bit
-MATLAB R2015b 
-8G RAM
+    64 bit Windows / 64 bit OSX (Mac)
+    python 2.7.x
+    Java 8 64 bit
+    MATLAB R2015b 
+    8G RAM
 
 
 ###################################
