@@ -34,6 +34,12 @@ To run it, open up a command shell and type:
 
 ...then c:\someDir\avatol_cv will contain all the files for AvatolCV.  
 
+###################################
+#    UPDATING AVATOLCV
+###################################
+If there is a bug fix and you need to pull in the updated system, merely run the same command that you used to install it initially.
+
+%python updateAvatolCV.py install_root
 
 ###################################
 #    RUNNING AVATOLCV
