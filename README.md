@@ -26,9 +26,9 @@ updateAvatolCV.py is the script that installs the latest version of each install
 ###################################
 To run it, open up a command shell and type:
 
-%python updateAvatolCV.py <install_root>
+%python updateAvatolCV.py install_root
 
-...where <install_root> is replaced by your choice of what directory you want to install into.  The installer will create a subdirectory called 'avatol_cv' and place the system under that.  So, for example, you specify
+...where install_root is replaced by your choice of what directory you want to install into.  The installer will create a subdirectory called 'avatol_cv' and place the system under that.  So, for example, you specify
 
 %python updateAvatolCV.py C:\someDir
 
