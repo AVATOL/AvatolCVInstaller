@@ -21,6 +21,7 @@ updateAvatolCV.py is the script that installs the latest version of each install
 2. Click the button that says "Download ZIP"
 
 3. unzip the file and then proceed with the instructions in the next section
+
 ###################################
 #    INSTALLING AVATOLCV
 ###################################
