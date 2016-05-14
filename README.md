@@ -12,6 +12,17 @@ updateAvatolCV.py is the script that installs the latest version of each install
     MATLAB R2015b 
     8G RAM
 
+###################################
+#   CONFIGURING PYTHON
+###################################
+Your system may come with python 2.7.x pre-installed.  
+
+To check on Mac, open up a terminal (Finder->Applications->Utilities->Terminal) and type "python --version".  If present you will see something like
+
+$ python --version
+Python 2.7.10
+
+
 
 ###################################
 #   GETTING THE INSTALLER
