@@ -22,7 +22,20 @@ To check on Mac, open up a terminal (Finder->Applications->Utilities->Terminal) 
 $ python --version
 Python 2.7.10
 
+If not present, install it from https://www.python.org/downloads/release/python-2711/.  If "python --version" does not yield an answer, you will need to set the PATH directory to contain the directory with the python executable using this command:
 
+export PATH=$PATH:<location where python was installed>
+
+for example
+
+export PATH=$PATH:/usr/bin/python
+
+
+To check on a Windows machine, type "python --version"
+C:\>python --version
+Python 2.7
+
+If not present, install it from https://www.python.org/downloads/release/python-2711/.  If "python --version" does not yield an answer, you will need to set the PATH directory to contain the directory with the python executable.  (Control Panel -> System and Security -> System -> Advanced System Settings -> Environment Variables.  In the System Variables window, select Path and click edit. Click once in the Variable Value field to ensure it is no longer highlighted.  Right arrow to the end and type a semicolon followed by the path to where python was installed, for example if python was installed at C:\, you would append this to the path:  ";C:\Python27".  Then click OK, click OK, click OK.  Now open up a new command shell and "python --version" should yield "Python 2.7)
 
 ###################################
 #   GETTING THE INSTALLER
@@ -38,11 +51,11 @@ Python 2.7.10
 ###################################
 To run it, open up a command shell and type:
 
-%python updateAvatolCV.py install_root
+python updateAvatolCV.py install_root
 
 ...where install_root is replaced by your choice of what directory you want to install into.  The installer will create a subdirectory called 'avatol_cv' and place the system under that.  So, for example, you specify
 
-%python updateAvatolCV.py C:\someDir
+python updateAvatolCV.py C:\someDir
 
 ...then c:\someDir\avatol_cv will contain all the files for AvatolCV.  
 
@@ -51,17 +64,22 @@ To run it, open up a command shell and type:
 ###################################
 If there is a bug fix and you need to pull in the updated system, merely run the same command that you used to install it initially.
 
-%python updateAvatolCV.py install_root
+python updateAvatolCV.py install_root
 
 ###################################
 #    RUNNING AVATOLCV
 ###################################
 Once the files are in place, you would do:
 
-%cd C:\someDir\avatol_cv\java\lib
-%java -jar avatol_cv.jar
+cd C:\someDir\avatol_cv\java\lib
+java -jar avatol_cv.jar
 
 ...to start the system
+
+or on Mac
+
+cd /someDir/avatol_cv/java/lib
+java -jar avatol_cv.jar
 
 #####################################
 #   WHAT THE INSTALLER DOES IN DETAIL
