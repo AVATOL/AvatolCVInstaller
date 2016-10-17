@@ -4,7 +4,7 @@ Install script for AvatolCV
 updateAvatolCV.py is the script that installs the latest version of each install bundle
 
 ###################################
-#   REQUIREMENTS/DEPENDENCIES
+c#   REQUIREMENTS/DEPENDENCIES
 ###################################
     64 bit Windows / 64 bit OSX (Mac)
     python 2.7.x
@@ -24,7 +24,7 @@ To check on Mac, open up a terminal (Finder->Applications->Utilities->Terminal) 
 
 If not present, install it from https://www.python.org/downloads/release/python-2711/.  If "python --version" does not yield an answer, you will need to set the PATH directory to contain the directory with the python executable using this command:
 
-    $export PATH=$PATH:<location where python was installed>
+"    $export PATH=$PATH:<location where python was installed>
 
 for example
 
@@ -43,10 +43,11 @@ If not present, install it from https://www.python.org/downloads/release/python-
 ###################################
 1. Got to https://github.com/AVATOL/AvatolCVInstaller
 
-2. Click the button that says "Download ZIP"
+2. Click the button that says "Clone or Download"
 
-3. unzip the file and then proceed with the instructions in the next section
+3. Click the button that says "Download ZIP"
 
+4. unzip the file and then proceed with the instructions in the next section4
 ###################################
 #    INSTALLING AVATOLCV
 ###################################
