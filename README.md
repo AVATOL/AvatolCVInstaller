@@ -2,6 +2,26 @@ NOTE: This material is based upon work supported by the National Science Foundat
 Any opinions, findings, and conclusions or recommendations expressed in this material are those of the author(s) 
 and do not necessarily reflect the views of the National Science Foundation.
 
+# Personnel
+This system was developed at Oregon State University, School of EECS, Machine Learning Group by
+
+- Jed Irvine - primary software developer
+- Michael Lam - highClutterSegmenter algorithm
+- Yao Zhou - basicSegmenter, basicOrientation and shapeTextureScoring algorithms
+- Shell Hu - partsScoring algorithm
+- Behrooz Mahasseni - algorithm integration support
+- Sinisa Todorovic - Associate Professor of Computer Science, Computer Vision, co-Principal Investigator
+- Thomas Dietterich, Distinguished Professor and Director of Intelligent Systems Research, co-Principal Investigator
+
+in collaboration with 
+
+- Maureen O'Leary, Stony Brook University - co-Principal Investigator and Morphobank integration support
+- Maria Passarotti, Whirl-i-gig.com - Morphobank Web Services integration support
+- Andrea Cirranello, American Museum Of Natural History - bat skull dataset
+- Ramona Walls, CyVerse, University of Arizona - leaf dataset and BisQue integration support
+- Kristian Kvilekval, University of California Santa Barbara - BisQue Web Services integration support
+- Meg Daly, Ohio State University - nematocyst dataset
+
 # AvatolCVInstaller
 Install script for AvatolCV
 
