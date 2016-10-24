@@ -22,6 +22,14 @@ in collaboration with
 - Kristian Kvilekval, University of California Santa Barbara - BisQue Web Services integration support
 - Meg Daly, Ohio State University - nematocyst dataset
 
+Additional National Science Foundation grants supporting the AVAToL project
+
+- DEB 1208270 to M.A. O’Leary
+- DEB 1208523 to M. Daly
+- DEB 1208845 to D.W. Stevenson
+- DEB 1208306 to N. B. Simmons
+- DEB 1208619 to E. C. Theriot. 
+
 # AvatolCVInstaller
 Install script for AvatolCV
 
